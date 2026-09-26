@@ -67,4 +67,105 @@ header{
 .nav-links a:hover {
     color: #e50914;
 }
+.hero {
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 20px;
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(229, 9, 20, 0.18),
+            transparent 50%
+        ),
+        #080808;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    width: 350px;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    background: #e50914;
+
+    border-radius: 50%;
+
+    filter: blur(160px);
+
+    opacity: 0.15;
+
+    top: 20%;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.hero-content {
+    max-width: 800px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.small-heading {
+    color: #e50914;
+
+    font-size: 0.8rem;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+
+    line-height: 1;
+
+    margin-bottom: 20px;
+
+    font-weight: 800;
+}
+
+.hero h1 span {
+    color: #e50914;
+}
+
+.hero h2 {
+    color: #d6d6d6;
+
+    font-size: 1.7rem;
+
+    margin-bottom: 20px;
+}
+
+.hero p:not(.small-heading) {
+    max-width: 620px;
+
+    margin: auto;
+
+    color: #999;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 35px;
+}
+
+
 
