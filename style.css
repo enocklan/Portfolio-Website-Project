@@ -361,6 +361,7 @@ header{
 .project-card p {
     color: #999;
     margin-bottom: 20px;
+
 }
 
 .tech-list {
@@ -378,4 +379,69 @@ header{
     border: 1px solid #303030;
 }
 
+
+.contact-section {
+    text-align: center;
+
+    padding-bottom: 130px;
+}
+
+.contact-container {
+    max-width: 650px;
+
+    margin: auto;
+}
+
+.contact-container > p {
+    color: #999;
+
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+.contact-links a {
+    padding: 13px 22px;
+
+    color: #ddd;
+
+    border: 1px solid #333;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+.contact-links a:hover {
+    color: white;
+
+    border-color: #e50914;
+
+    background: #e50914;
+
+    transform: translateY(-3px);
+}
+
+
+footer {
+    padding: 30px;
+
+    text-align: center;
+
+    border-top: 1px solid #252525;
+
+    color: #666;
+
+    font-size: 0.85rem;
+
+    background: #050505;
+}
 
