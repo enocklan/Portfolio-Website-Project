@@ -153,6 +153,22 @@ const testimonials = {
   }
 };
 
+const testimonialsContainer = document.getElementById("testimonials-container");
+
+for (let key in testimonials) {
+  const testimonial = testimonials[key];
+
+  const testimonialCard = document.createElement("div");
+  testimonialCard.className = "testimonial-card";
+
+  testimonialCard.innerHTML = `
+    <p>"${testimonial.message}"</p>
+    <h3>${testimonial.name}</h3>
+    <span>${testimonial.role}</span>
+  `;
+
+  testimonialsContainer.appendChild(testimonialCard);
+}
 
 
 const year = document.getElementById("year");
