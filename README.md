@@ -2,11 +2,11 @@
 
 A responsive personal portfolio website built to introduce myself, showcase my web development skills, display my projects, and provide a way for visitors to get in touch with me.
 
-## 🌐 Live Website
+##  Live Website
 
 [Visit My Portfolio](https://enocklan.github.io/Portfolio-Website-Project/)
 
-## 📖 About The Project
+##  About The Project
 
 This portfolio website was created as part of my journey into web development.
 
@@ -28,7 +28,7 @@ The project focuses on creating a clean, simple, responsive, and user-friendly i
 - Responsive navigation menu
 - Clean and minimal dark-themed interface
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -37,7 +37,7 @@ The project focuses on creating a clean, simple, responsive, and user-friendly i
 - GitHub
 - GitHub Pages
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Portfolio-Website-Project/
@@ -49,7 +49,7 @@ Portfolio-Website-Project/
 │   └── profile.jpeg
 │
 └── README.md
-🚀 How to Run It Locally
+  How to Run It Locally
 
 To run this project locally on your machine, follow these simple steps:
 
@@ -61,7 +61,7 @@ cd Portfolio-Website-Project
 
 Open the index.html file directly in your preferred web browser, or use a local development server extension such as Live Server in VS Code.
 
-💻 Projects
+  Projects
 
 The portfolio includes several projects, including:
 
@@ -114,31 +114,31 @@ JavaScript
 
 The website is designed to adapt to different screen sizes, including:
 
-💻 Desktop
-📱 Mobile
-📟 Tablet
+ Desktop
+Mobile
+Tablet
 
 CSS media queries are used to adjust layouts and styling for smaller screens.
 
-📚 What I Learned
+ What I Learned
 
 Through building this project, I strengthened my understanding of DOM manipulation by successfully combining arrays, objects, and loops to inject data dynamically into a webpage.
 
 I also gained practical experience managing a clean separation of concerns across HTML, CSS, and JavaScript files while maintaining a disciplined Git workflow for tracking and managing changes.
 
-📬 Contact
+ Contact
 
 Email: enockkipkirui003@gmail.com
 
 GitHub: github.com/enocklan
 
-👨‍💻 About Me
+ About Me
 
 I'm Enock Langat, an aspiring web developer interested in creating simple, engaging, and user-friendly websites.
 
 I'm currently developing my skills in HTML, CSS, and JavaScript through practical projects and continuous learning. My goal is to keep improving as a developer, explore new technologies, and build useful web applications.
 
-📌 Future Improvements
+ Future Improvements
 
 Some planned improvements include:
 
@@ -149,8 +149,8 @@ Improve accessibility
 Add additional pages
 Continue improving mobile responsiveness
 Explore React and modern frontend technologies
-📄 License
+ License
 
 This project is open for learning and personal use.
 
-Built with ❤️ by Enock Langat
+Built with  by Enock Langat
