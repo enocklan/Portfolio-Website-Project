@@ -14,7 +14,7 @@ It provides information about me, my technical skills, projects I have worked on
 
 The project focuses on creating a clean, simple, responsive, and user-friendly interface using fundamental web technologies.
 
-## ✨ Features
+##  Features
 
 - Responsive design for desktop, tablet, and mobile devices
 - Personal introduction and About Me section
