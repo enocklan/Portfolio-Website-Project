@@ -133,6 +133,27 @@ projects.forEach(function(project, index) {
 });
 
 
+const testimonials = {
+  testimonial1: {
+    name: "John Kamau",
+    role: "Software Developer",
+    message: "Enock is a hardworking developer who is always willing to learn and improve his skills."
+  },
+
+  testimonial2: {
+    name: "Mary Wanjiku",
+    role: "Project Manager",
+    message: "He is reliable, creative, and does a great job turning ideas into functional websites."
+  },
+
+  testimonial3: {
+    name: "David Otieno",
+    role: "Web Designer",
+    message: "Working with Enock was a great experience. He pays attention to details and delivers quality work."
+  }
+};
+
+
 
 const year = document.getElementById("year");
 
